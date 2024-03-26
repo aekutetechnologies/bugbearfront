@@ -1,0 +1,216 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #0D1117;
+    box-sizing: border-box;
+  }
+
+  .line {
+    width: 100px;
+    background-color: #0D1117;
+    height: 1px;
+  }
+
+  .orLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .centerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #0D1117;
+  }
+  .gapInForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0D1117;
+    padding: 60px;
+    padding-right: 80px;
+    background-color: white;
+    border-radius: 10px;
+
+  }
+  
+
+  
+  .logo {
+    /* Logo styles */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    /* Group for email and password inputs */
+    margin-bottom: 15px;
+  }
+  
+  .input-container {
+    /* Container for each input */
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    /* Input field styles */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .remember-me {
+    /* Checkbox styles */
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password {
+    /* Forgot password link styles */
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .sign-in-button {
+    /* Button styles */
+    width: 100%;
+    padding: 10px;
+    background-color: #0D1117;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-account-link {
+    /* Create account link styles */
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* This is signup css */
+
+  .signup-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .signup-options h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .signup-options button {
+    width: 300px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .signup-options button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* (Optional) Add styles for active button state if applicable */
+  .signup-options button.active {
+    background-color: #ccc;
+  }
+
+  /* This is onemembersignupform css */
+
+  /* Base styles */
+form {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #0D1117;
+  cursor: pointer;
+  border: 1px solid #0D1117;
+
+}
+
+/* button[type="submit"]:hover {
+  background-color: #0069d9;
+} */
+
+/* Styling specific elements based on the image (if available) */
+/*
+  - Target specific fields using class names or IDs
+  - Adjust styles like colors, fonts, spacing, layout
+*/
+
+/* Error styles (optional) */
+input.error,
+select.error,
+textarea.error {
+  border-color: #f00;
+}
+
+
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #0D1117; /* Use color that contrasts with background */
+}
+
+  
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .login-form {
+      width: 90%;
+    }
+  }
+  
